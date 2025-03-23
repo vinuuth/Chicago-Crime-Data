@@ -20,20 +20,34 @@ Pie Chart: Represents crime distribution across different types.
 
 Line Chart: Tracks crime frequency trends across different days of the week. These charts are rendered using Chart.js, which helps present the data in an interactive and visually appealing way.
 
+![image](https://github.com/user-attachments/assets/4cc21ca4-7c9d-47b4-894a-926046ef6cb9)
+
+![image](https://github.com/user-attachments/assets/2887f1b4-c500-4044-a323-1beaec3c64a1)
+
+
 User Authentication:
 The project integrates Django's built-in authentication system, allowing users to sign up, log in, and access the crime data analysis tools securely. User authentication ensures that only registered users can access the data and visualizations, providing a personalized experience.
+![image](https://github.com/user-attachments/assets/293d0905-ae47-4bb9-bf1c-1d41a5ac04f1)
 
 Location-Based Filtering:
 One of the key features of the application is its ability to filter crime data based on location. By entering a specific latitude, longitude, and radius (in miles), users can focus on a specific area, whether it’s a neighborhood or a broader city region. This is crucial for users who want to analyze crime in particular locations of interest.
 
+![image](https://github.com/user-attachments/assets/1cb453ab-e48a-4b26-aa3f-f7755c0c9ba5)
+
+
 Data Processing Details
 The data processing section of the project handles the aggregation and summarization of crime data in several steps:
+
 
 Top 5 Crimes:
 The application calculates the most frequent types of crimes that occurred within the user-defined geographical area. This is achieved by iterating over the crime data and counting the occurrences of each type of crime. The top five most frequent crimes are then selected and sorted in descending order of occurrence.
 
+
 Day of the Week Analysis:
 Another key feature of the project is the ability to analyze crimes based on the day of the week. The application processes the date and time data of each crime incident and determines on which day of the week the crime occurred. The results are aggregated and visualized, offering insights into whether crime activity is higher on specific days.
+
+![image](https://github.com/user-attachments/assets/7e5819f6-068f-449f-af6a-3a454ac72182)
+
 
 User Interface
 The application provides a simple and user-friendly interface:
